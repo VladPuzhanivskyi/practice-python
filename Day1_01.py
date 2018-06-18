@@ -13,7 +13,6 @@ if e < 1:
 if e > 1:
   print(template.format(g),'$')  
 
-name = 'Puzhanivskyi Vladislav'
 def printTimeStamp(name):
     print('Автор програми: ' + name)
     print('Час компіляції: ' + str(datetime.datetime.now()))
