@@ -1,6 +1,6 @@
 import datetime
 
-a = list(input().split())
+a = list(input().split()) # Пример ввода: "15 cm in foot"
 a[0]=float(a[0])
 b = ["cm","foot","inch"]
 c = [0.01,0.3048,0.0254]
